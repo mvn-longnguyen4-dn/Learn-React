@@ -116,3 +116,32 @@ code {
   margin: 5px;
   padding: 5px;
 }
+.list-item {
+  display: flex;
+  text-decoration: none;
+}
+.bg-item {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+.info-item {
+  width: 300px;
+  padding-left: 15px;
+}
+.info-item h2, p{
+  margin: 0;
+}
+.del-btn {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.style-list{
+  background: rgba(255,255,255, .3);
+  padding: 1em;
+  margin: 0;
+}
