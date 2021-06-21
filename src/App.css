@@ -15,8 +15,8 @@
 
 .App-header {
   background: linear-gradient(to left,#e66666, #9191e5);;
-  padding-top: 150px;
-  min-height: calc(100vh - 230px);
+  padding-top: 20px;
+  min-height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
   align-items: center;
