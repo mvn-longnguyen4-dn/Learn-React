@@ -145,3 +145,82 @@ code {
   padding: 1em;
   margin: 0;
 }
+
+
+
+
+.form-container {
+  width: 50%;
+  margin: auto;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+.form-group label {
+  width: 100%;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.radio-group {
+  width: 100%;
+  color: white;
+}
+
+.radio-group input[type=radio] {
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+}
+
+
+.form-group input[type=text], input[type=password], select, textarea {
+  margin-top: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color:yellow;
+  width: 100%;
+}
+
+.form-group input[type=text], input[type=password], select {
+  height: 30px;
+}
+
+.form-group textarea {
+  height: 60px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+  background: yellow;
+  color: #000;
+  border-color: transparent;
+  border-radius: 5px;
+  font-size: 21px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+table {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+th {
+  background: yellow;
+  color: #000;
+  border-width: 0px;
+}
+
+td {
+  background: #aaa;
+  color: white;
+  text-align: center;
+} 

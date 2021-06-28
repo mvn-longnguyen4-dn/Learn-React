@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header.js';
 import Footer from './Footer.js';
-import List from './List.js';
+import Form from './Form';
 import React from 'react';
 
 class Main extends React.Component {
@@ -39,48 +39,49 @@ class Main extends React.Component {
   //     )
   // }
 
-  constructor(props) {
-    super(props);
-    this.state = {
-        'items' : [
-            {
-                'id' : 1,
-                'bg' : 'red',
-                'ttl' : 'Bánh',
-                'txt' : '10.000 đ'
-            },
-            {
-                'id' : 2,
-                'bg' : 'yellow',
-                'ttl' : 'Kẹo',
-                'txt' : '5.000 đ'
-            },
-            {
-                'id' : 3,
-                'bg' : 'orange',
-                'ttl' : 'Mứt',
-                'txt' : '50.000 đ'
-            },
-            {
-                'id' : 4,
-                'bg' : 'green',
-                'ttl' : 'Chè',
-                'txt' : '20.000 đ'
-            },
-            {
-                'id' : 5,
-                'bg' : 'blue',
-                'ttl' : 'Trái Cây',
-                'txt' : '100.000 đ'
-            },
-        ]
-    }
-}
+
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//         'items' : [
+//             {
+//                 'id' : 1,
+//                 'bg' : 'red',
+//                 'ttl' : 'Bánh',
+//                 'txt' : '10.000 đ'
+//             },
+//             {
+//                 'id' : 2,
+//                 'bg' : 'yellow',
+//                 'ttl' : 'Kẹo',
+//                 'txt' : '5.000 đ'
+//             },
+//             {
+//                 'id' : 3,
+//                 'bg' : 'orange',
+//                 'ttl' : 'Mứt',
+//                 'txt' : '50.000 đ'
+//             },
+//             {
+//                 'id' : 4,
+//                 'bg' : 'green',
+//                 'ttl' : 'Chè',
+//                 'txt' : '20.000 đ'
+//             },
+//             {
+//                 'id' : 5,
+//                 'bg' : 'blue',
+//                 'ttl' : 'Trái Cây',
+//                 'txt' : '100.000 đ'
+//             },
+//         ]
+//     }
+// }
 render() {
-    const {items} = this.state;
+    // const {items} = this.state;
     return (
         <div className="App-header">
-            <List items={items}/>
+            <Form/>
         </div>
     )
 }
