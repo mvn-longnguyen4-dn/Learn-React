@@ -1,92 +1,50 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  min-width: 1000px;
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-.Footer {
-  height: 30px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-}
-.Footer p {
-  font-size: 14px;
-  font-style: italic;
-  margin-left: auto;
-  margin-right: auto;
+ol, ul {
+  padding-left: 30px;
 }
 
-.Header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-height: 50px;
-  background:#2c343f linear-gradient(135deg, #2c343f 27%,#37414f 28%,#37414f 50%,#2c343f 51%,#2c343f 77%,#37414f 78%,#37414f) right bottom/5px 5px;
-}
-.logo-header {
-  height: 30px;
-  width: 260px;
-  margin: 10px;
-}
-.list-header, .list-header li, .list-header a {
-  text-decoration: none;
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
 }
 
-.list-header {
-  width: 60%;
-  display: flex;
-  margin: 0;
+.status {
+  margin-bottom: 10px;
 }
-.list-header li{
-  display: block;
-}
-.list-header li a {
-  color: yellow;
-  font-weight: 700;
-  width: 192px;
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
   float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
   text-align: center;
-  font-size: 26px;
-  height: 16px;
-  padding-top: 10px;
-  padding-bottom: 18px;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  width: 34px;
 }
-.list-header li a:hover {
-  border-bottom: yellow 5px solid;
+
+.square:focus {
+  outline: none;
 }
-.btn-header {
-  width: 150px;
-  text-align: right;
-  padding-top: 15px;
-  padding-bottom: 15px;
+
+.kbd-navigation .square:focus {
+  background: #ddd;
 }
-.btn-header button {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  font-size: 12px;
-  margin-right: 10px;
+
+.game {
+  display: flex;
+  flex-direction: row;
 }
-.btn-header button:hover {
-  opacity: 0.5;
-}
-.btn-header button:nth-child(1) {
-  background-color: orange;
-}
-.btn-header button:nth-child(2) {
-  background-color: lightgreen;
-}
-.btn-header button:nth-child(3) {
-  background-color: red;
+
+.game-info {
+  margin-left: 20px;
 }
