@@ -90,3 +90,29 @@ code {
 .btn-header button:nth-child(3) {
   background-color: red;
 }
+.list-circle {
+  padding: 0;
+  margin: 0 auto;
+}
+.list-circle li{
+  display: block;
+  margin: 10px;
+  font-weight: 700;
+  float: left;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+.circle {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.count-btn, .home-btn, .about-btn {
+  width: 100px;
+  margin: 5px;
+  padding: 5px;
+}
